@@ -1,5 +1,5 @@
 
-# SendBird Freshdesk Chat Webhook Server
+# SendBird Freshdesk Chat Ticket and Channel Server
 
 **Version**: 0.1.0
 
