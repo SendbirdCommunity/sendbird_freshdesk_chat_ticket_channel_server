@@ -47,7 +47,7 @@ const prepareSendbirdChannelData = (ticketId, data) => {
         data: {
             channel_url: `freshdesk_${ticketId}`,
             name: `#${ticketId} ${subject}`,
-            user_ids: ['jason_4'],
+            user_ids: [sendbird_user_id],
         },
         url: `https://api-${APP_ID}.sendbird.com/v3/group_channels`
     };
